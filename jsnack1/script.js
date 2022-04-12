@@ -11,22 +11,28 @@
 
 
 
-const firstNumber = prompt("Inserisci un numero");
-const secondNumber = prompt("Inserisci un altro numero");
+
+const firstNumber = parseInt(prompt("Inserisci un numero"));
+
+const secondNumber = parseInt(prompt("Inserisci un altro numero"));
+console.log(firstNumber,secondNumber);
 
 
-if (firstNumber > secondNumber) {
+
+
+if (firstNumber == null || secondNumber == null) {
+  document.getElementById("output-number").innerHTML = " ";
+}
+else if (firstNumber > secondNumber) {
   document.getElementById("output-number").innerHTML = firstNumber;
 }
 else if (firstNumber < secondNumber) {
   document.getElementById("output-number").innerHTML = secondNumber;
 }
-else if ((firstNumber || secondNumber) == null) {
-  document.getElementById("output-number").innerHTML = " ";
-}
 else if (firstNumber === secondNumber) {
   document.getElementById("output-number").innerHTML = "Inserisci due numeri diversi tra di loro perfavore";
 }
+
 
 
 

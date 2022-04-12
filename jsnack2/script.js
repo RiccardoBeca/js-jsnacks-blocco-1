@@ -1,3 +1,4 @@
+
 /*
  JSNACK 2
  L’utente inserisce due parole in successione, con due prompt.
