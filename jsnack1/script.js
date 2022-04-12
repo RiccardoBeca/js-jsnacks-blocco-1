@@ -11,3 +11,29 @@
 
 
 
+const firstNumber = prompt("Inserisci un numero");
+const secondNumber = prompt("Inserisci un altro numero");
+
+
+if (firstNumber < secondNumber) {
+  document.getElementById("out-put-number").innerHTML = secondNumber;
+}
+else if (firstNumber > secondNumber) {
+  document.getElementById("out-put-number").innerHTML = firstNumber;
+}
+else if ((firstNumber || secondNumber) == null) {
+  document.getElementById("out-put-text").innerHTML = " ";
+
+}
+else if (firstNumber === secondNumber) {
+  document.getElementById("out-put-number").innerHTML = "Inserisci due numeri diversi tra di loro perfavore";
+}
+
+
+
+
+//-------------- FINE JSNACK1-------------- //
+
+
+
+
