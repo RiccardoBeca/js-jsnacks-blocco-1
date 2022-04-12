@@ -32,7 +32,6 @@ else if (firstNumber === secondNumber) {
 
 
 
-//-------------- FINE JSNACK1-------------- //
 
 
 
