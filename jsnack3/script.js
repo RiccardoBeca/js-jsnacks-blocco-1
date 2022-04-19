@@ -5,7 +5,7 @@
  Esegui questo programma in due versioni, con il for e con il while (facoltativo)
 */
 
-totalSum = 0;
+let totalSum = 0;
 
 for (let i = 0; i < 5; i++) {
   let userNumber = parseInt(prompt("Inserisci un numero"));
